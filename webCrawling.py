@@ -87,7 +87,7 @@ memory usage: 448.0+ bytes
 
 print(product_df)
 
-path = r'/Users/yingying/ITWILL/4_Python-I/workspace/chap10_Crawling/data'  
+path = r'some path'  
 product_df.to_csv(path + '/product_df.csv', index = None)
 
 for row in product_df.itertuples():
